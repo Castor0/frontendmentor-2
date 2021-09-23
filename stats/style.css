@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(233, 47%, 7%);  
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    Font-size: 15px;
+    padding-left: 200px;
+    
+    
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: hsl(244, 38%, 16%);
+    padding: 80px;
+    width: 45%;
+    border-radius: 10px 0 0 10px;
+    
+    color: white;
+}
+
+.box2 {
+    width: 40%;
+    border-radius: 0 10px 10px 0;
+    height:40%;
+    background:hsl(277, 64%, 61%);
+    
+    
+}
+
+.image{ 
+    border-radius: 0 10px 10px 0;   
+}
+
+h1 {
+    font-family: Inter ;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    font-family: Inter;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    font-family: Inter;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+span {
+    color: hsl(277, 64%, 61%);
+
+}
